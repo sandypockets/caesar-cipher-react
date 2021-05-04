@@ -1,25 +1,17 @@
 import React, { useState } from 'react';
 import {runCipher} from "../helpers/cipher";
 import "./Form.scss";
+import {CipherText} from "./CipherText";
 
-export const Form = (props) => {
+export const Form = () => {
   const [userInput, setUserInput] = useState('')
-  const [hintText, setHintText] = useState('')
+  const [cipherText, setCipherText] = useState('')
 
   const handleChange = event => {
     const {value} = event.target;
     setUserInput(value);
-    setHintText(value.length > 2 ? `Press enter to encrypt ${value} with the Caesar Cipher` : '')
+    setCipherText(runCipher(value, 5)) // Add option for user to set their own key
   };
-
-  const handleKeyPress = event => {
-    const {value} = event.target;
-    console.log(value)
-    if (value.length > 2 && event.key === 'Enter') {
-      runCipher(value, 5) // Add option for user to set their own key
-      console.log(event.key, value)
-    }
-  }
 
   return (
     <div>
@@ -27,9 +19,9 @@ export const Form = (props) => {
         className='input'
         placeholder='Type something'
         onChange={handleChange}
-        onKeyPress={handleKeyPress}
         value={userInput.value}
       />
+      <CipherText cipherText={cipherText} />
     </div>
   )
 }
