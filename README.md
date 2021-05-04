@@ -1,13 +1,16 @@
-# React Template
+# Caesar Cipher - React
 
-A template based from Create React App. The base (initial commit) of this template can be recreated without this repo by running `npx create-react-app your-app-name`, however this template is intended to be a living breathing organism, and will be improved upon over time. 
+A simple Caesar Cipher React app, styled with Sass. 
 
-Its purpose is to incorporate specific features that cater to some common needs, helping achieve an MVP sooner. 
+> In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
 
-### Custom components list
-A list of what's been built upon the original Create React App generated template. 
+The user can enter a word or phrase, and the app will return the cipher text based on Caesar's Cipher. 
 
-- Basic nav bar
+## Getting Started
+
+1. Clone or fork this repository.
+2. Run `npm install` to install the required dependencies.
+3. Run `npm start` and navigate to [`localhost:3000`](http://localhost:3000) to view the app.
 
 ---
 ## Getting Started with Create React App
