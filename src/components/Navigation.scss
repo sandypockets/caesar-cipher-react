@@ -1,13 +1,28 @@
+$primaryWhite: #F8F8F8FF;
+$primaryGrey: #4C4C4CFF;
 .nav {
     display: flex;
     justify-content: space-between;
     padding: 1em 2em 1em 2em;
 
+    a {
+        text-decoration: none;
+        :not(:hover) {
+            color: $primaryWhite;
+            transition: color 1s;
+        }
+        :hover {
+            color: $primaryGrey;
+            transition: color 1.5s;
+        }
+    }
+
     span {
         margin: 1em;
-        color: white;
+        color: $primaryWhite;
         font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
         font-weight: bold;
         font-size: 1.5em;
+
     }
 }

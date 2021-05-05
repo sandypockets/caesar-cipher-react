@@ -1,3 +1,6 @@
+$primaryWhite: #F8F8F8FF;
+$primaryGrey: #4C4C4CFF;
+
 input {
   margin-top: 10rem;
 }
@@ -6,7 +9,7 @@ input,
 textarea {
   -webkit-font-smoothing: antialiased;
   font: inherit;
-  color: #ffffff;
+  color: $primaryWhite;
 }
 
 .input {
@@ -19,7 +22,7 @@ textarea {
   padding: 0;
 
   .input::placeholder {
-    color: #4e4e4e;
+    color: $primaryGrey;
   }
 }
 
