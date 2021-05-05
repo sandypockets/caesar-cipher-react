@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {runCipher} from "../helpers/cipher";
-import "./Form.scss";
 import {CipherText} from "./CipherText";
+import "./Form.scss";
 
 export const Form = () => {
   const [userInput, setUserInput] = useState('')
