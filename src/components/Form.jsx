@@ -22,7 +22,7 @@ export const Form = () => {
     setCipherKey(checkIfNum(value))
     setTimeout(() => {
       setForm(true)
-    }, 2000)
+    }, 3500)
   }
 
   return (
