@@ -9,14 +9,6 @@ textarea {
   color: #ffffff;
 }
 
-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 0;
-}
-
 .input {
   background: none;
   font-size: 72px;
@@ -28,5 +20,5 @@ button {
 }
 
 .input::placeholder {
-  color: #323232;
+  color: #4e4e4e;
 }
