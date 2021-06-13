@@ -28,6 +28,8 @@ Using the `words-to-numbers` package, the app is able to accept the input of wor
 - web-vitals 
 - words-to-numbers
 
----
+## Roadmap
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). You can find helpful information about working with bootstrapped React apps in the [template readme](https://github.com/sandypockets/react-template#readme).
+* More user feedback when entering a cipher key
+* Accept numbers in the plaintext translation (convert them back to words? one, two, etc)
+* Link to GitHub repo
