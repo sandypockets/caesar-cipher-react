@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import { Navigation } from "./components/Navigation.jsx";
 import { Form } from "./components/Form";
