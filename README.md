@@ -32,4 +32,5 @@ Using the `words-to-numbers` package, the app is able to accept the input of wor
 
 * More user feedback when entering a cipher key
 * Accept numbers in the plaintext translation (convert them back to words? one, two, etc)
+* Fix responsiveness on small displays. Currently only optimized for desktop.
 * Link to GitHub repo
